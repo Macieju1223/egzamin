@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  httpd_01:
+    image: httpd_index
+    ports:
+      - 80:80
